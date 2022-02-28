@@ -1,5 +1,5 @@
 # Postgresql-base
-This is something I use to startup a new (Laravel) project which uses Postgresql database as backend. You should have a postgresql database server installed somewhere and you are supposed to have enough rights with your running user to create databases and datase users. That means in practice that you are a super user for the server. If you are using a postgresqlserver hosted on a different server or otherwise need a password to access the postgresql from the command line then you should export some environment variables:
+This is something I use to startup a new (Laravel) project which uses Postgresql database as backend. You should have a postgresql database server installed somewhere and you are supposed to have enough rights with your running user to create databases and database users. That means in practice that you are a super user for the server. If you are using a postgresqlserver hosted on a different server or otherwise need a password to access the postgresql from the command line then you should export some environment variables:
 
 | VARIABLE | PURPOSE | EXAMPLE |
 |----------|---------|---------|
