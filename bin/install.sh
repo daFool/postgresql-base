@@ -51,6 +51,6 @@ fi
 
 for i in sql sql/tables sql/views sql/functions sql/procedures; do
     if [ ! -d $TARGETPROJECT/$i ]; then
-        mkdir $1 || { echo "Making directory $i failed" && exit 1; }
+        mkdir $TARGETPROJECT/$i || { echo "Making directory $i failed" && exit 1; }
     fi
 done
